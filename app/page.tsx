@@ -1,8 +1,17 @@
+import NavBar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center bg-arena text-azulMarino">
-      <h1 className="text-5xl font-bold text-turquesa">¡Tailwind funciona!</h1>
-      <p className="mt-4 text-lg">Landing de Solano Azul 🌊</p>
+    <>
+    <NavBar />
+    <main className="pt-20">
+    <Hero />
+    <About />
     </main>
+    <footer />
+    </>
   );
 }
