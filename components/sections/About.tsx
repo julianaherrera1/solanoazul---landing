@@ -2,7 +2,7 @@
 
 import { Fish, Leaf, Truck, Snowflake } from "lucide-react";
 
-export default function Benefits() {
+export default function About() {
   return (
     <section className="w-full py-20 bg-white">
       <div className="max-w-6xl mx-auto px-6 text-center">
