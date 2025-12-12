@@ -48,7 +48,7 @@ export default function Product() {
             </p>
 
             <a
-              href="https://wa.me/xxxxxxxxxx?text=Hola!%20Quiero%20más%20información%20sobre%20el%20atún%20de%20300g."
+              href="https://wa.me/3046274851?text=Hola%20%F0%9F%91%8B%20Estoy%20interesado%20en%20el%20at%C3%BAn%20fresco%20de%20300g.%20%C2%BFEst%C3%A1%20disponible%20hoy%20y%20cu%C3%A1l%20es%20el%20precio%3F"
               target="_blank"
               className="inline-flex items-center gap-2 text-[#0F4C81] font-medium hover:text-[#5AB5C7] transition-colors"
             >
@@ -77,7 +77,7 @@ export default function Product() {
             </p>
 
             <a
-              href="https://wa.me/xxxxxxxxxx?text=Hola!%20Quiero%20más%20información%20sobre%20el%20atún%20de%20500g."
+              href="https://wa.me/3046274851?text=Hola%20%F0%9F%91%8B%20Me%20interesa%20el%20at%C3%BAn%20fresco%20de%20500g.%20%C2%BFTienes%20disponibilidad%20y%20precio%20actualizado%3F"
               target="_blank"
               className="inline-flex items-center gap-2 text-[#0F4C81] font-medium hover:text-[#5AB5C7] transition-colors"
             >

@@ -76,7 +76,7 @@ export default function PurchaseSteps() {
         {/* CTA FINAL */}
         <div className="mt-16">
           <a
-            href="https://wa.me/xxxxxxxxxx?text=Hola!%20Quiero%20comprar%20atún%20fresco."
+            href="https://wa.me/3046274851?text=Hola%20👋%20Estoy%20interesado%20en%20el%20atún%20fresco%20de%20Solano%20Azul.%20¿Me%20das%20disponibilidad%20y%20precios?"  rel="noopener noreferrer"
             target="_blank"
             className="px-10 py-4 bg-[#5AB5C7] text-white font-semibold rounded-full hover:bg-[#4CA3B5] transition-all duration-300 shadow-lg"
           >

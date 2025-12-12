@@ -39,7 +39,7 @@ export default function Contact() {
             </p>
 
             <a
-              href="https://wa.me/xxxxxxxxxx?text=Hola!%20Quiero%20más%20información%20sobre%20Solano%20Azul."
+              href="https://wa.me/3046274851?text=Hola%20%F0%9F%91%8B%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Solano%20Azul."
               target="_blank"
               className="px-6 py-3 rounded-full bg-[#5AB5C7] text-white font-medium hover:bg-[#4CA3B5] transition-all shadow-lg hover:shadow-xl"
             >
@@ -59,7 +59,7 @@ export default function Contact() {
             </p>
 
             <a
-              href="https://instagram.com/xxxxx"
+              href="https://www.instagram.com/solanoazul_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               target="_blank"
               className="px-6 py-3 rounded-full bg-white text-[#0F4C81] font-medium hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl"
             >

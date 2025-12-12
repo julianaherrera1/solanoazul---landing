@@ -45,7 +45,7 @@ export default function Hero() {
 
         {/* CTA */}
         <button className="px-10 py-4 bg-[#5AB5C7] text-white font-semibold rounded-full hover:bg-[#4CA3B5] transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-3xl mx-auto">
-          <span className="text-lg">Descubre nuestro atún</span>
+          <a  href="https://wa.me/3046274851?text=Hola%20👋%20Estoy%20interesado%20en%20el%20atún%20fresco%20de%20Solano%20Azul.%20¿Me%20das%20disponibilidad%20y%20precios?" target="_blank" rel="noopener noreferrer" className="text-lg">Descubre nuestro atún</a>
         </button>
 
       </div>

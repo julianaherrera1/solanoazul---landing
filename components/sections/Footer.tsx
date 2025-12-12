@@ -63,7 +63,7 @@ export default function Footer() {
             {/* Redes */}
             <div className="flex items-center gap-5">
               <a
-                href="https://wa.me/xxxxxxxxxx"
+                href="https://wa.me/3046274851?text=Hola%20%F0%9F%91%8B%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Solano%20Azul."
                 target="_blank"
                 className="p-3 rounded-full border border-[#5AB5C7]/30 hover:border-[#5AB5C7] hover:bg-[#5AB5C7]/10 transition shadow-sm"
               >
@@ -71,7 +71,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://instagram.com/xxxxx"
+                href="https://www.instagram.com/solanoazul_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 target="_blank"
                 className="p-3 rounded-full border border-[#5AB5C7]/30 hover:border-[#5AB5C7] hover:bg-[#5AB5C7]/10 transition shadow-sm"
               >

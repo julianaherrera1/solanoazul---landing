@@ -11,9 +11,8 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-blue-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
 
-        {/* Logo - RUTA CORREGIDA */}
+        {/* Logo  */}
         <Link href="/" className="flex items-center">
-          {/* Si el logo está en public/assets/logos/logo1.png */}
           <img
             src="/assets/logos/logo1.png"
             alt="Solano Azul - Atún fresco del Pacífico"
@@ -56,9 +55,8 @@ export default function Navbar() {
             Contacto
           </Link>
 
-          {/* CTA - AZUL TURQUESA en lugar de morado */}
           <a
-            href="#cta"
+            href="https://wa.me/3046274851?text=Hola%20👋%20Estoy%20interesado%20en%20el%20atún%20fresco%20de%20Solano%20Azul.%20¿Me%20das%20disponibilidad%20y%20precios?" target="_blank" rel="noopener noreferrer"
             className="px-5 py-2.5 bg-[#5AB5C7] text-white rounded-full hover:bg-[#4CA3B5] transition-colors duration-300 shadow-md font-medium"
           >
             Comprar ahora
@@ -76,7 +74,7 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu - CORREGIDA LA CONDICIÓN Y ANIMACIÓN */}
-      <div className={`md:hidden bg-white/98 backdrop-blur-md shadow-lg overflow-hidden transition-all duration-300 ease-in-out ${open ? "max-h-64 opacity-100" : "max-h-0 opacity-0"}`}>
+      <div className={`md:hidden bg-white/98 backdrop-blur-md shadow-lg overflow-hidden transition-all duration-300 ease-in-out ${open ? "max-h-74 opacity-100" : "max-h-0 opacity-0"}`}>
         <div className="px-4 py-6 space-y-6">
           <Link 
             href="#about" 
@@ -93,6 +91,15 @@ export default function Navbar() {
           >
             Productos
           </Link>
+
+          <Link 
+            href="#process" 
+            className="block text-gray-700 hover:text-[#5AB5C7] transition-colors text-lg font-medium"
+            onClick={() => setOpen(false)}
+          >
+            ¿Cómo comprar?
+          </Link>
+          
           
           <Link 
             href="#contact" 
@@ -103,7 +110,7 @@ export default function Navbar() {
           </Link>
           
           <a
-            href="#cta"
+            href="https://wa.me/3046274851?text=Hola%20👋%20Estoy%20interesado%20en%20el%20atún%20fresco%20de%20Solano%20Azul.%20¿Me%20das%20disponibilidad%20y%20precios?" target="_blank" rel="noopener noreferrer"
             onClick={() => setOpen(false)}
             className="block w-full text-center px-4 py-3 bg-[#5AB5C7] text-white rounded-full hover:bg-[#4CA3B5] transition-colors font-medium"
           >
