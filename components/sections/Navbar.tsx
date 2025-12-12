@@ -41,6 +41,13 @@ export default function Navbar() {
           >
             Productos
           </Link>
+
+           <Link 
+            href="#process" 
+            className="text-gray-700 hover:text-[#5AB5C7] transition-colors duration-300 font-medium"
+          >
+            ¿Cómo comprar?
+          </Link>
           
           <Link 
             href="#contact" 
