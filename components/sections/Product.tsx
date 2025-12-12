@@ -31,7 +31,7 @@ export default function Product() {
           <div className="bg-white rounded-2xl p-8 border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300">
             <div className="relative w-full h-56 mb-6">
               <Image
-                src="/assets/imagenes/producto300.jpeg"
+                src="/assets/imagenes/imgProduct2.png"
                 alt="Atún Solano Azul 300g"
                 fill
                 className="object-cover rounded-xl"
@@ -60,7 +60,7 @@ export default function Product() {
           <div className="bg-white rounded-2xl p-8 border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300">
             <div className="relative w-full h-56 mb-6">
               <Image
-                src="/assets/imagenes/producto500.jpeg"
+                src="/assets/imagenes/imgProduct2.png"
                 alt="Atún Solano Azul 500g"
                 fill
                 className="object-cover rounded-xl"
