@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-[#0F4C81]" />
         <div className="absolute inset-0 bg-black/40" />
-        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-96 h-96 bg-[#1D4C7D]/20 rounded-full blur-3xl" />
+        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-96 h-96 bg-[#1D4C7D]/20 rounded-full blur-3xl -z-20 pointer-events-none" />
       </div>
 
       <div className="max-w-6xl mx-auto px-6 text-center text-white">

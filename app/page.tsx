@@ -17,7 +17,7 @@ export default function Home() {
     <PurchaseSteps />
     <Contact />
     </main>
-    <footer />
+    <Footer />
     </>
   );
 }
