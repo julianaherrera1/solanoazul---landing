@@ -19,6 +19,9 @@ const montserrat = Montserrat({ subsets: ["latin"], weight: ["400","600","700"]}
 export const metadata: Metadata = {
   title: "Solano Azul | Del Pacifico a tu mesa",
   description: "Landing oficial de Solano Azul, marca de atún del Pacífico colombiano.",
+    icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
